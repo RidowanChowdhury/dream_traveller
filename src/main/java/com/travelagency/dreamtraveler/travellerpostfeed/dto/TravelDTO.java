@@ -10,18 +10,13 @@ public class TravelDTO {
 
     private Long id;
 
-
     private String post;
-
 
     private Long userId;
 
-
     private String userName;
 
-
     private String location;
-
 
     private String privacy;
 

@@ -1,7 +1,7 @@
 package com.travelagency.dreamtraveler.registration.rest;
 
 
-import com.travelagency.dreamtraveler.registration.dto.ResponseDTO;
+import com.travelagency.dreamtraveler.common.dto.ResponseDTO;
 import com.travelagency.dreamtraveler.registration.dto.UserDTO;
 import com.travelagency.dreamtraveler.registration.service.RegistrationService;
 import org.springframework.beans.factory.annotation.Autowired;
