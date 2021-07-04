@@ -1,28 +1,23 @@
-package com.travelagency.dreamtraveler.travellerpostfeed.entity;
+package com.travelagency.dreamtraveler.travellerpostfeed.dto;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-@Entity
-@Table(name = "travel_post")
-public class Travel_Post {
+public class TravelPostDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
 
-    @Column(nullable = false, unique = false, length = 45)
     private String post;
 
-    @Column(nullable = false, unique = false, length = 45)
     private Long userId;
 
-    @Column(nullable = false, unique = false, length = 45)
     private String userName;
 
-    @Column(nullable = false, unique = false, length = 45)
     private String location;
 
-    @Column(nullable = false, unique = false, length = 45)
     private String privacy;
 
     public Long getId() {
